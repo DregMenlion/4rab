@@ -123,5 +123,10 @@
             android:id="@+id/buttonClean"
             style="@style/CalculatorButton"
             android:text="C" />
+        <Button
+            android:id="@+id/buttonNext"
+            style="@style/CalculatorButton"
+            android:text="Автор"
+            android:onClick="goToNextPage" />
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -36,7 +36,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttonPower.setOnClickListener(this);
         buttonClean.setOnClickListener(this);
     }
-
+    public void goToNextPage(View view) {
+        android.content.Intent intent = new android.content.Intent(this, develop.class);
+        startActivity(intent);
+    }
     @Override
     public void onClick(View v) {
         float num1 = 0;
@@ -81,4 +84,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         result.setText(String.valueOf(res));
     }
+
 }
